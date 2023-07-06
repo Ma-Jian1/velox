@@ -191,7 +191,7 @@ bool SubstraitToVeloxPlanValidator::validateScalarFunction(
       "factorial",         "concat_ws",     "rand",
       "json_array_length", "from_unixtime", "to_unix_timestamp",
       "unix_timestamp",    "repeat",        "translate",
-      "add_months",        "date_format",   "trunc",
+      "add_months",           "trunc",
       "sequence",          "posexplode",    "arrays_overlap",
       "array_min",         "array_max",     "approx_percentile"};
   if (functions.find(name) != functions.end()) {

@@ -128,6 +128,7 @@ class SubstraitParser {
       {"ends_with", "endswith"},
       {"starts_with", "startswith"},
       {"datediff", "date_diff"},
+      {"date_format", "format_datetime"},
       {"named_struct", "row_constructor"},
       {"bit_or", "bitwise_or_agg"},
       {"bit_or_merge", "bitwise_or_agg_merge"},
